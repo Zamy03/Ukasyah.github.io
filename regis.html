@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="asset/css/regis.css">
+</head>
+<body>
+    <div class="container">
+        <form class="account-form">
+            <h2>Create an account</h2>
+            <p><a href="login.html">Already have an account? Log in</a></p>
+            <label for="username">What should we call you?</label>
+            <input type="text" id="username" name="username" placeholder="Enter your profile name" required>
+
+            <label for="email">What's your email?</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="password">Create a password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <span class="password-info">Use 8 or more characters with a mix of letters, numbers & symbols</span>
+
+            <button type="submit">Create an account</button>
+
+            <p>By creating an account, you agree to the <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>.</p>
+        </form>
+    </div>
+    <script src="asset/js/regis.js" type="module"></script>
+</body>
+</html>

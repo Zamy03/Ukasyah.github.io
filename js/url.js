@@ -1,0 +1,10 @@
+export const endpointLogin = "https://130.162.195.228/mhs714220016/login";
+export const endpointRegister = "https://130.162.195.228/mhs714220016/regis";
+export const endpointGetTentara = "https://130.162.195.228/mhs714220016/datamayat";
+export const endpointPostTentara = "https://130.162.195.228/mhs714220016/datamayat";
+export const endpointPutTentara = "https://130.162.195.228/mhs714220016/datamayat/{id}";
+export const endpointDeleteTentara = "https://130.162.195.228/mhs714220016/datamayat/{id}";
+export const endpointGetKuburan = "https://130.162.195.228/mhs714220016/kuburan";
+export const endpointPostKuburan = "https://130.162.195.228/mhs714220016/kuburan";
+export const endpointPutKuburan = "https://130.162.195.228/mhs714220016/kuburan/{id}";
+export const endpointDeleteKuburan = "https://130.162.195.228/mhs714220016/kuburan/{id}";
